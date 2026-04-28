@@ -183,7 +183,7 @@ python3 main.py --eval_only --checkpoint outputs/best_model.pth
 # Cell 1 — upload project zip and set working directory
 from google.colab import files
 import zipfile, os
-uploaded = files.upload()  # upload CNN_Flood_Mapping_Code.zip
+uploaded = files.upload()  # upload CNN_Flood_Submission.zip
 zipfile.ZipFile('CNN_Flood_Mapping_Code.zip').extractall('/content/')
 os.chdir('/content/project')
 
