@@ -1,3 +1,6 @@
+**GitHub Repository:** https://github.com/GauravManju/cnn-flood-mapping-sentinel1
+
+
 # CNN-Based Flood Extent Mapping Using Sentinel-1 SAR Imagery
 
 **Module:** CO7113 — Artificial Intelligence (MSc)
