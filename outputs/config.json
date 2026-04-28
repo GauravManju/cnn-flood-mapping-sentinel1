@@ -1,0 +1,21 @@
+{
+  "model": "resnet34_unet",
+  "data_root": "data/sen1floods11",
+  "batch_size": 8,
+  "image_size": 512,
+  "num_workers": 4,
+  "already_db": false,
+  "max_epochs": 100,
+  "encoder_lr": 1e-05,
+  "decoder_lr": 0.0001,
+  "weight_decay": 0.01,
+  "bce_weight": 0.5,
+  "pos_weight": 4.5,
+  "patience": 15,
+  "scheduler_t0": 20,
+  "threshold": 0.5,
+  "seed": 42,
+  "output_dir": "outputs",
+  "save_visuals": true,
+  "n_visual_samples": 8
+}
